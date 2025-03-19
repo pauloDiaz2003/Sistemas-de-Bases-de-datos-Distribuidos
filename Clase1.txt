@@ -1,0 +1,5 @@
+Modelar una base de datos
+La empresa Mova ubicada en Ambato se dedica a construir o diseñar zapatos deportivos la empresa tiene dos sucursales en
+Latacunga y en Riobamba las ventas en Ambato crecen en 10% diarios en Latacunga en 20% y en Riobamba el 30 %, necesitamos
+diseñar una cuarta sucursal que tenga la ganancia en ventas del 40%
+¿Dónde sería está sucursal?
