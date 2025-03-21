@@ -1,0 +1,48 @@
+Base de datos =  Colección de información organizada y almacenada electrónicamente
+- Contenedor de datos que permite organizar y almacenar 
+-----------
+Elementos 
+-----------
+Tablas = Estructuras que representan entidades o conceptos especificos
+Campos = Columnas de una tabla que representan atributos especificos de los datos (Representan los Atributos)
+Registros = Las filas, instancias individuales de datos dentro de una tabla
+PK = Campo que representa de manera unica a un atributo 
+Fk = Campos en una tabla que establecen una relacion con la clave primaria de otra tabla
+Consultas = Instrucciones o comando utilizados para recupera,actualizar o manipular datos
+Indices = Mejoran el rendimiento de las consultas
+Vistas = Consultas predefinidas que actuan como tablas virtuales. permite ver informacion seleccionada a un usuario
+---------------------
+Base de datos centralizada = Todo en un solo servidor , Aquellos que se ejuecutan en un unico sistema informatico 
+Base de datos distribuida = Datos repartidos en multiples nodos/servidores , Multiples arquitecturas en donde se almacenan los datos
+y con cierta arquitectura de red
+---------------------
+¿Porque usar bases de datos distribuidos?
+Escalabilidad
+Alta disponibilidad 
+Tolerancia a fallos
+Reduccion de latencia (tiempo de respuesta al manipular un sistema)  
+---------------------
+Conceptos Clave
+Nodo = Maquina que forma parte de un sistema distribuido
+Cluster = Conjunto de nodos que trabajan juntos
+Replica = Copia de los datos en diferentes nodos
+Particionamiento(Sharding) = Divide los datos para almacenarlos en diferentes nodos
+Consistencia, Disponibilidad y tolerancia a particiones = Explicar las limitaciones y elecciones que deben hacerse en un sistema distribuido 
+---------------------
+Arquitectura s comunes dentro de BD distribuidas
+Amo-Esclavo = nodo principal (master) y varios esclavos(slaves)
+Peer-to-Peer = Todos los nodos son iguales
+Multi-Master = Varios nodos pueden ser master y aceptar escrituras
+---------------------
+Replicacion
+Sincronica = se va ejecutando en cada cierto tiempo
+Asincronica = todo al mismo tiempo
+---------------------
+
+
+
+
+
+
+
+
