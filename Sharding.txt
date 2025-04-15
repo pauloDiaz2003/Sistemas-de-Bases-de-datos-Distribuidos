@@ -1,0 +1,7 @@
+Qué es almacenamiento distribuido mediante sharding? 
+El sharding es un método de almacenamiento distribuido en bases de datos, donde la información se divide en fragmentos (o shards) horizontales almacenados en diferentes nodos. 
+Cada shard guarda un subconjunto del total de datos. De esta forma, se logra: 
+Escalabilidad horizontal: Puedes añadir más nodos (shards) conforme crecen tus datos. 
+Rendimiento: Las consultas se reparten entre múltiples nodos. 
+Alta disponibilidad: Reducción de puntos únicos de fallo. 
+
